@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Graph"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="Graph">
+    </item>
+    <item
+        android:id="@+id/Product"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="Product">
+    </item>
+    <item
+        android:id="@+id/Staff"
+        android:icon="@drawable/ic_subject_black_24dp"
+        android:title="Staff">
+    </item>
+    <item android:id="@+id/Order"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        android:title="Order">
+
+    </item>
+</menu>
