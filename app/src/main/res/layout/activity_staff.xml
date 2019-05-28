@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorLavander"
+        app:titleTextColor="@color/colorWhite"
+        android:id="@+id/staff_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.SearchView
+        android:inputType="text"
+        android:drawableStart="@drawable/search"
+        android:layout_below="@id/staff_toolbar"
+        android:id="@+id/staff_searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Frag_staff"
+        android:layout_below="@id/staff_searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ManagerCoffee</string>
+    <string name="staff_profile">profile</string>
+    <string name="staff_add">add</string>
+    <string name="staff_notification">notification</string>
+    <string name="item_info">Item list</string>
+    <string name="item_add">add</string>
+    <string name="item_stat">statistic</string>
+    <string name="item_dash">ITEM</string>
+    <string name="staff_dash">STAFF</string>
+    <string name="schedule_dash">SCHEDULE</string>
+    <string name="search">SEARCH...</string>
+    <string name="income">INCOME AND GRAPH</string>
+    <string name="daylist">DAY LIST</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
